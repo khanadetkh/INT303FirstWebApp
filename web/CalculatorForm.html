@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculation Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+        <style> 
+            body {
+                margin: 50px;
+                background-color: AntiqueWhite;
+                font-family: 'Kanit', sans-serif;
+            }
+            h1 {
+                text-align: center;
+                color: #191970;
+            }
+            form {
+                font-size: 20pt;
+                color: #223322;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><img src="calculating.png" class="animated flash"> Calculator Form</h1> <hr>
+        <form action="VerySimpleCalculatorProject" method="post">
+            x = <input type = "number" required name="x"/> <br>
+            operator : <select name = "operator">
+                <option value="+"> + </option>
+                <option value="-"> - </option>
+                <option value="*"> x </option>
+                <option value="/"> / </option>
+            </select> <br>
+            y = <input type = "number" required name="y"/> <br>
+            <input type="submit"/> 
+        </form>
+    </body>
+</html>
